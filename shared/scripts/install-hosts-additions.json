@@ -1,0 +1,16 @@
+{
+	"shared": {
+		"127.0.0.1": [
+			"$hostname",
+			"$hostname.localdomain",
+			"host.docker.internal",
+			"kubernetes.docker.internal"
+		]
+	},
+	"specific": {
+		"mbp13-i7": {},
+		"mbp15-i7": {},
+		"mbp16-i9": {},
+		"ms-m1u": {}
+	}
+}

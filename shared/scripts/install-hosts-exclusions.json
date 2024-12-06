@@ -1,0 +1,27 @@
+{
+	"shared": [
+		".*[[:blank:]|\\.]fbcdn\\.net$",
+
+		".*[[:blank:]|\\.]licdn\\.com$",
+		".*[[:blank:]|\\.]linkedin\\.com$",
+
+		".*[[:blank:]|\\.]redd\\.it$",
+		".*[[:blank:]|\\.]reddit\\.com$",
+		".*[[:blank:]|\\.]redditmedia\\.com$",
+		".*[[:blank:]|\\.]redditstatic\\.com$",
+		".*www\\.reddit\\.com$",
+
+		".*[[:blank:]|\\.]twimg\\.com$",
+		".*[[:blank:]|\\.]twitter\\.com$",
+		".*[[:blank:]|\\.]x\\.com$",
+
+		".*[[:blank:]|\\.]whatsapp\\.com$",
+		".*[[:blank:]|\\.]whatsapp\\.net$"
+	],
+	"specific": {
+		"mbp13-i7": [],
+		"mbp15-i7": [],
+		"mbp16-i9": [],
+		"ms-m1u": []
+	}
+}
