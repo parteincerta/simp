@@ -1,6 +1,6 @@
-# alpha
-A set of configuration scripts, dotfiles and notes that I use to seed and
-maintain all my hosts.
+# simp
+A set of scripts, dotfiles and notes that I use to help me seed and maintain all
+my development hosts. Or... just a bunch of stuff I spend too much time on.
 
 ## Notes for macOS
 - Optionally follow the preliminary macOS [setup guide](macos/README.md).
