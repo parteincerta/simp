@@ -306,7 +306,7 @@ export PS1='\D{%a} \t $(prompt_sh_level)$(printf $color_fg_dark_green)\w$(printf
 bash_completion="$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh"
 # shellcheck disable=SC1090
 [ -r "$bash_completion" ] &&
-	source "$bash_completion"
+	source "$bash_completion" >/dev/null
 unset bash_completion
 
 cli_tools="/Library/Developer/CommandLineTools"
