@@ -11,7 +11,6 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 - Add Kitty to the Developer Tools category in Privacy & Security, within System
   Settings.
 - Open applications and configure them as needed.
-  - Set Brave's `Tab Scrolling` flag to `Enabled - tabs shrink to pinned tab width`.
 - Disable auto-updates: `bash shared_macos/scripts/disable-updates.sh`.
 - Press `Cmd+Shift+5`, select `Options` and then set screenshots' folder.
 - Clone the [docker-containers](https://github.com/parteincerta/docker-containers)
