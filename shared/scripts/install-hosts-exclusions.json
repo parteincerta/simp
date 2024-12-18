@@ -2,6 +2,9 @@
 	"shared": [
 		".*[[:blank:]|\\.]fbcdn\\.net$",
 
+		".*[[:blank:]|\\.]cdninstagram\\.com$",
+		".*[[:blank:]|\\.]instagram\\.com$",
+
 		".*[[:blank:]|\\.]licdn\\.com$",
 		".*[[:blank:]|\\.]linkedin\\.com$",
 
