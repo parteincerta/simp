@@ -94,7 +94,7 @@ homebrew_casks=(
 	alt-tab betterdisplay brave-browser bruno chatgpt dbeaver-community docker
 	fork iina kitty mac-mouse-fix microsoft-excel microsoft-powerpoint
 	microsoft-word mist mongodb-compass-isolated-edition numi obs onyx parallels
-	signal transmission visual-studio-code whatsapp windows-app zed zoom
+	signal spaceid transmission visual-studio-code whatsapp windows-app zed zoom
 )
 brew install --cask "${homebrew_casks[@]}"
 

@@ -88,8 +88,8 @@ log_info "\t >>> Installing Homebrew casks ..."
 homebrew_casks=(
 	alt-tab betterdisplay brave-browser bruno dbeaver-community docker fork iina
 	kitty mac-mouse-fix microsoft-excel microsoft-powerpoint microsoft-word mist
-	mongodb-compass-isolated-edition numi obs onyx parallels signal transmission
-	visual-studio-code whatsapp windows-app zed zoom
+	mongodb-compass-isolated-edition numi obs onyx parallels signal spaceid
+	transmission visual-studio-code whatsapp windows-app zed zoom
 )
 brew install --cask "${homebrew_casks[@]}"
 
