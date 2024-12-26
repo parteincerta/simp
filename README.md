@@ -21,6 +21,8 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 - Reboot.
 
 ### Maintenance
+- Check for dotfiles updates:
+  * `cd ~/Developer/parteincerta/simp && git pull`
 - Check for macOS updates:
   * To list available updates: `softwareupdate --list`.
   * To install an update: `softwareupdate --install <label>`.
