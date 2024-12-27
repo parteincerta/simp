@@ -8,8 +8,8 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 - Add the following location to Spotlight Privacy list `/Library/Developer`.
 - Clone this repo and run: `./bootstrap.sh`.
 - Start neovim and let the LSP servers install.
-- Add Kitty to the Developer Tools category in Privacy & Security, within System
-  Settings.
+- Add Ghostty and Kitty to the Developer Tools category in Privacy & Security,
+  within System Settings.
 - Open applications and configure them as needed.
 - Disable auto-updates: `bash shared_macos/scripts/disable-updates.sh`.
 - Press `Cmd+Shift+5`, select `Options` and then set screenshots' folder.

@@ -87,10 +87,10 @@ brew unlink openssl@3
 
 log_info "\t >>> Installing Homebrew casks ..."
 homebrew_casks=(
-	alt-tab betterdisplay brave-browser bruno dbeaver-community docker fork iina
-	kitty mac-mouse-fix microsoft-excel microsoft-powerpoint microsoft-word mist
-	mongodb-compass-isolated-edition numi obs onyx spaceid transmission
-	visual-studio-code windows-app zed
+	alt-tab betterdisplay brave-browser bruno dbeaver-community docker fork
+	ghostty iina kitty mac-mouse-fix microsoft-excel microsoft-powerpoint
+	microsoft-word mist mongodb-compass-isolated-edition numi obs onyx spaceid
+	transmission visual-studio-code windows-app zed
 )
 brew install --cask "${homebrew_casks[@]}"
 

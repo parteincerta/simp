@@ -29,7 +29,7 @@ mkdir -p \
 "$XDG_CACHE_HOME"/{ads,code}/{data/User,extensions} \
 "$XDG_CACHE_HOME/bun"/{bin,cache-install,cache-transpiler,lib} \
 "$XDG_CACHE_HOME/deno/cache" \
-"$XDG_CONFIG_HOME"/{bat/themes,fd,gradle,fish,git,kitty,lf,mise,nvim,pip,zed} \
+"$XDG_CONFIG_HOME"/{bat/themes,fd,gradle,fish,ghostty,git,kitty,lf,mise,nvim,pip,zed} \
 "$DOWNLOADS"/{Brave,Safari}
 
 if [ -d "$EXTERNAL_VOLUME" ]; then
@@ -105,6 +105,7 @@ if [ -n "$HOMEBREW_PREFIX" ]; then
 	export font_size="10.5"
 
 	envsubst <"$rootdir/shared_macos/.bunfig.toml" >"$XDG_CONFIG_HOME/.bunfig.toml"
+	envsubst <"$rootdir/shared_macos/ghostty.conf" >"$XDG_CONFIG_HOME/ghostty/config"
 	envsubst <"$rootdir/shared_macos/kitty.conf" >"$XDG_CONFIG_HOME/kitty/kitty.conf"
 	envsubst <"$rootdir/shared_macos/lfmarks" >"$HOME/.local/share/lf/marks"
 	envsubst <"$rootdir/shared/settings.vscode.json" >"$TMPDIR/settings.vscode.json"
