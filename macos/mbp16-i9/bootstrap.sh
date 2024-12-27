@@ -182,7 +182,8 @@ echo "UUID=DC798778-543D-396B-A11F-2EC42F3500F9 none msdos ro,noauto" |
 if ! grep -q "$HOMEBREW_PREFIX/bin/bash" /etc/shells; then
 	log_info "\t >>> Setting Homebrew's bash as the default shell"
 	echo "$HOMEBREW_PREFIX/bin/bash" | sudo tee -a /etc/shells
-	chsh -s "$HOMEBREW_PREFIX/bin/bash" "$(whoami)"
+	echo "$HOMEBREW_PREFIX/bin/fish" | sudo tee -a /etc/shells
+	chsh -s "$HOMEBREW_PREFIX/bin/fish" "$(whoami)"
 fi
 
 
