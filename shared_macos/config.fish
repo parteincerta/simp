@@ -39,6 +39,7 @@ if [ -z "$HOMEBREW_PREFIX" ]
 end
 
 [ -n "$HOMEBREW_PREFIX" ] &&
+	set --export SHELL "$HOMEBREW_PREFIX/bin/fish" &&
 	set --export HOMEBREW_CELLAR "$HOMEBREW_PREFIX/Cellar" &&
 	set --export HOMEBREW_REPOSITORY "$HOMEBREW_PREFIX/Homebrew"
 

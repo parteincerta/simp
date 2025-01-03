@@ -47,6 +47,7 @@ if [ -z "$HOMEBREW_PREFIX" ]; then
 fi
 
 [ -n "$HOMEBREW_PREFIX" ] &&
+	export SHELL="$HOMEBREW_PREFIX/bin/bash" &&
 	export HOMEBREW_CELLAR="$HOMEBREW_PREFIX/Cellar" &&
 	export HOMEBREW_REPOSITORY="$HOMEBREW_PREFIX/Homebrew"
 
