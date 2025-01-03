@@ -1,7 +1,5 @@
 {
 	"shared": [
-		".*[[:blank:]|\\.]fbcdn\\.net$",
-
 		".*[[:blank:]|\\.]cdninstagram\\.com$",
 		".*[[:blank:]|\\.]instagram\\.com$",
 
@@ -16,8 +14,10 @@
 
 		".*[[:blank:]|\\.]twimg\\.com$",
 		".*[[:blank:]|\\.]twitter\\.com$",
-		".*[[:blank:]|\\.]x\\.com$",
-
+		".*[[:blank:]|\\.]x\\.com$"
+	],
+	"shared_extra": [
+		".*[[:blank:]|\\.]fbcdn\\.net$",
 		".*[[:blank:]|\\.]whatsapp\\.com$",
 		".*[[:blank:]|\\.]whatsapp\\.net$"
 	],

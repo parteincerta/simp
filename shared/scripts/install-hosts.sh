@@ -68,7 +68,7 @@ if [ "$system" = "Darwin" ]; then
 	echo "-> Applying exclusions ..."
 
 	declare -a shared_address_list=($(
-		jq --raw-output '.shared[]' \
+		jq --raw-output '.shared+.shared_extra|.[]' \
 			"$rootdir/shared/scripts/install-hosts-exclusions.json" |
 		tr "\n" " "
 	))
