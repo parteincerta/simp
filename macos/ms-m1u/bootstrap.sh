@@ -144,7 +144,7 @@ if ! grep -q "$HOMEBREW_PREFIX/bin/bash" /etc/shells; then
 	log_info "\t >>> Setting Homebrew's bash as the default shell"
 	echo "$HOMEBREW_PREFIX/bin/bash" | sudo tee -a /etc/shells
 	echo "$HOMEBREW_PREFIX/bin/fish" | sudo tee -a /etc/shells
-	chsh -s "$HOMEBREW_PREFIX/bin/fish" "$(whoami)"
+	chsh -s "$HOMEBREW_PREFIX/bin/bash" "$(whoami)"
 fi
 
 
