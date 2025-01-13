@@ -404,6 +404,8 @@ alias npmrs="npm run start"
 alias npms="npm search"
 alias q="exit 0"
 alias tar="COPYFILE_DISABLE=1 tar"
+alias wcc="wc -c"
+alias wcl="wc -l"
 alias whicha="which -a"
 alias z="zed"
 
