@@ -4,7 +4,9 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 
 ## Notes for macOS
 - Optionally follow the preliminary macOS [setup guide](macos/README.md).
-- Install Apple CLI Tools `xcode-select --install`.
+- Install the latest CTL from at [Apple Developer][macos-notes-01]
+  - Note: Previously this would have been done thorugh `xcode-select --install`
+    but it is [causing problems][macos-notes-02] with Homebrew `brew upgrade --greedy`.
 - Add the following location to Spotlight Privacy list `/Library/Developer`.
 - Clone this repo and run: `./bootstrap.sh`.
 - Start neovim and let the LSP servers install.
@@ -13,12 +15,16 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 - Open applications and configure them as needed.
 - Disable auto-updates: `bash shared_macos/scripts/disable-updates.sh`.
 - Press `Cmd+Shift+5`, select `Options` and then set screenshots' folder.
-- Clone the [docker-containers](https://github.com/parteincerta/docker-containers)
+- Clone the [docker-containers][macos-notes-03]
   repo and setup the Docker containers.
 - Revisit Notifications, Login Items, Spotlight and re-access accordingly.
 - Configure VPNs and show them in the Menu Bar.
 - Shutdown Ethernet/Wi-Fi and run Onyx. Revoke its permissions afterwards.
 - Reboot.
+
+[macos-notes-01]: https://developer.apple.com/download/all/
+[macos-notes-02]: https://github.com/orgs/Homebrew/discussions/5723#discussioncomment-11185411
+[macos-notes-03]: https://github.com/parteincerta/docker-containers
 
 ### Maintenance
 - Check for dotfiles updates:
