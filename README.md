@@ -5,8 +5,8 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 ## Notes for macOS
 - Optionally follow the preliminary macOS [setup guide](macos/README.md).
 - Install the latest CTL from [Apple Developer][macos-notes-01].
-  - Alternative to `xcode-select --install` since it's
-    [causing problems][macos-notes-02] with Homebrew `brew upgrade --greedy`.
+  - Alternative to `xcode-select --install` since this one is
+    [causing problems][macos-notes-02] when upgrade packages.
 - Add the following location to Spotlight Privacy list `/Library/Developer`.
 - Clone this repo and run: `./bootstrap.sh`.
 - Start neovim and let the LSP servers install.
