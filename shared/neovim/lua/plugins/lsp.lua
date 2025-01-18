@@ -139,7 +139,7 @@ return {
 		{ "hrsh7th/cmp-nvim-lsp" },
 		{
 			"neovim/nvim-lspconfig",
-			tag = "v1.2.0",
+			tag = "v1.3.0",
 			config = function()
 				vim.diagnostic.config({
 					virtual_text = false,
