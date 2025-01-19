@@ -49,7 +49,7 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
   * Check for [hosts files][macos-maintenance-01] updates.
   * Update the version reference in
     [install-hosts.sh](shared/scripts/install-hosts.sh).
-  * Update the hosts file: `bash shared/scripts/install-hosts.sh`.
+  * Update the hosts file: `./shared/scripts/install-hosts.sh $SHORT_HOSTNAME`.
 - Docker maintenance steps:
 	- Check for updated extensions in Docker Desktop.
 	- Check for new versions of base images / components.
@@ -80,8 +80,8 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
     [MongoDB Tools][macos-maintenance-03] updates.
   * Update the version references in
     [install-mongo-utils.sh](shared/scripts/install-mongo-utils.sh).
-  * Update Shell: `bash shared/scripts/install-mongo-utils.sh shell`.
-  * Update Tools: `bash shared/scripts/install-mongo-utils.sh tools`.
+  * Update Shell: `./shared/scripts/install-mongo-utils.sh shell`.
+  * Update Tools: `./shared/scripts/install-mongo-utils.sh tools`.
 - Neovim maintenance commands:
   * Update Lazy's plugins: `:Lazy sync`.
   * Update Mason's registry: `:MasonUpdate`.
@@ -93,7 +93,7 @@ my development hosts. Or... just a bunch of stuff I spend too much time on.
 - vcpkg maintenance commands:
   * Check for [vcpkg][macos-maintenance-06] updates.
   * Update the version tag in [install-vcpkg.sh](shared/scripts/install-vcpkg.sh).
-  * Update vcpkg: `bash shared/scripts/install-vcpkg.sh`.
+  * Update vcpkg: `./shared/scripts/install-vcpkg.sh`.
 - Other maintenance commands:
   * Install the dotfiles: `./configure.sh`.
   * Export configurations: `bash shared_macos/scripts/export-defaults.sh`.
