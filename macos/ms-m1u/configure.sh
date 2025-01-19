@@ -30,7 +30,7 @@ mkdir -p \
 "$XDG_CACHE_HOME/bun"/{bin,cache-install,cache-transpiler,lib} \
 "$XDG_CACHE_HOME/deno/cache" \
 "$XDG_CONFIG_HOME"/{bat/themes,fd,gradle,fish,ghostty,git,kitty,lf,mise,nvim,pip,zed} \
-"$DOWNLOADS"/{Brave,Safari}
+"$DOWNLOADS"/{Brave,Misc,Safari}
 
 if [ -d "$EXTERNAL_VOLUME" ]; then
 	mkdir -p \

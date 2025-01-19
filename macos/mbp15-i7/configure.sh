@@ -32,7 +32,7 @@ mkdir -p \
 "$XDG_CONFIG_HOME"/{bat/themes,fd,fish,ghostty,git,kitty,lf,mise,nvim,pip,zed} \
 "$CODE"/{github,icnew/{git-icone,misc},parteincerta} \
 "$DOCUMENTS"/{Captures,Misc,Remote} \
-"$DOWNLOADS"/{Brave,Safari,Torrents}
+"$DOWNLOADS"/{Brave,Misc,Safari,Torrents}
 
 app_support_folder="$HOME/Library/Application Support"
 vscode_cache_dir="$XDG_CACHE_HOME/code/data/User"
